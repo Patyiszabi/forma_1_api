@@ -1,0 +1,18 @@
+###
+GET http://localhost:3000/api/versenyzok
+###
+GET http://localhost:3000/api/versenyzok/15
+###
+POST http://localhost:3000/api/versenyzok
+Content-Type: application/json
+X-Api-Kulcs: pitstop
+
+{
+  "nev": "Lewis Hamilton",
+  "nemzetiseg": "brit",
+  "cimek": 7,
+  "elsoCim": 2008
+}
+###
+DELETE http://localhost:3000/api/versenyzok/16
+X-Api-Kulcs: pitstop

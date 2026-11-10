@@ -1,0 +1,26 @@
+{
+  "name": "forma_1_api",
+  "version": "1.0.0",
+  "description": "Bemutató REST ApI: saját middleware-ek",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patyiszabi/forma_1_api.git"
+  },
+  "keywords": [],
+  "author": "Patyi Szabolcs",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Patyiszabi/forma_1_api/issues"
+  },
+  "homepage": "https://github.com/Patyiszabi/forma_1_api#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
